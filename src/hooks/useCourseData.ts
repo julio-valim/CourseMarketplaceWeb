@@ -16,4 +16,9 @@ export function useCourseData(){
         queryKey: ["course-data"],
         retry: 2
     })
+
+    return{
+        ...query,
+        data: query.data?.data
+    }
 }
