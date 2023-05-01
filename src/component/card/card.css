@@ -4,7 +4,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 250px;
+    text-align: center;
+    width: 450px;
+    border-color: #4d4d4d;
+    border-width: 5em;
     border-radius: 8px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     padding: 0;
@@ -14,4 +17,32 @@
     border-radius: 10px 10px 0 0;
     width: 450px;
     height: 300px;
+}
+
+
+.card-price {
+	display: inline-block;
+  
+  width: auto;
+	height: 8%;
+    width: 20%;
+	
+	background-color: #4d4d4d;
+	-webkit-border-radius: 3px 4px 4px 3px;
+	-moz-border-radius: 3px 4px 4px 3px;
+	border-radius: 3px 4px 4px 3px;
+	
+	border-left: 1px solid #707070;
+
+	/* This makes room for the triangle */
+	margin-left: 19px;
+	
+	position: relative;
+	
+	color: white;
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 38px;
+
+	padding: 0 10px 0 10px;
 }
