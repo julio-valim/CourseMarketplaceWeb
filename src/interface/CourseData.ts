@@ -1,5 +1,5 @@
 export interface CourseData {
-    id: number,
+    id?: number,
     title: string,
     cover: string,
     price: number
